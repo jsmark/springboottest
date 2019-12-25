@@ -1,0 +1,6 @@
+server:
+  port: 80
+
+
+testmq:
+  active: tcp://192.168.164.128:61616
