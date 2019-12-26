@@ -1,4 +1,4 @@
-package com.mq.active.persistenc
+package com.mq.active.persistence;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;

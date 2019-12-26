@@ -29,10 +29,10 @@ public class ActiveMQ_Queue_Producer {
             //消息id
             message.setJMSMessageID("aaa");
             //
-            message.setJMSDestination();
+//            message.setJMSDestination();
             //过期时间
             message.setJMSExpiration(1000);
-            message.setp
+//            message.setp
 //            producer.send(session.createTextMessage("你好，activeMQ:" + i));
             producer.send(message);
         }
